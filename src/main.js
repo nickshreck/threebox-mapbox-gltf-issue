@@ -1,7 +1,7 @@
 import mapboxgl from 'mapbox-gl';
 import Threebox from 'threebox-plugin/src/Threebox.js'; 
 
-mapboxgl.accessToken = "pk.eyJ1Ijoibmlja3NocmVjayIsImEiOiJjazNrMHo0M3MwbjBrM2hvY2cyNWh2bmNqIn0.DN9uhBX4gMAuLFUytbrXfg"; // Enter mapbox token
+mapboxgl.accessToken = ""; // Enter mapbox token
 
 let map = new mapboxgl.Map({
     style: "mapbox://styles/mapbox/satellite-v9?optimize=true",
